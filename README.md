@@ -1,18 +1,23 @@
-## Instalar Frontend
+## Requerimientos
+- Node.js v16.14.0 o superior
 
-### `npm install`
+## Instalar
 
-## Modificar APIURL
+#### `npm install`
 
-se encuentra en la ruta
- `/src/url.js`
-si se ejecuta en local cambiar por
-`export const APIURL = 'http://localhost:8080';`
+## Configurar
 
-o dejar la ruta de la API desplegada.
+- Si la API se ejecuta en local:
 
-`export const APIURL = 'http://54.85.253.46:8080':`
+> Ir a la ruta `/src/url.js` <br />
+> Modificar por `export const APIURL = 'http://localhost:8080';`
 
-## Ejecutar Frontend
+- Dejar la API desplegada en la nube
 
-### `npm run`
+> No modificar la ruta y dejar como `export const APIURL = 'http://54.85.253.46:8080':`
+
+## Ejecutar
+
+#### `npm run`
+
+La pagina se abrira automaticamente en `http://localhost:3000` cuando termine de ejecutar.
